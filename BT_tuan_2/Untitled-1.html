@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bài tập tuần 2</title>
+    </head>
+    <body>
+        <!--Bài 8:-->
+        <p>Click vào laptop hoặc điện thoại hoặc cốc coffee 
+            để chuyển trang</p>
+        <img src="../BT_tuan_2/workplace.jpg" alt="Hình ảnh" style="width: 379px; height: 400px;" usemap="#workmap">
+        <map name="workmap">
+            <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://en.wikipedia.org/wiki/Laptop">
+            <area shape="rect" coords="290,172,333,250" alt="Phone" href="https://en.wikipedia.org/wiki/Telephone">
+            <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="https://en.wikipedia.org/wiki/Coffee">
+        </map>
+        <!--Bài 10:-->
+        <details open>
+            <summary>IUH</summary>
+            <p>Trường Đại học Công nghiệp Thành phố Hồ Chí Minh là một trường đại học định hướng ứng dụng 
+                và thực hành, trực thuộc Bộ Công Thương, chuyên đào tạo nhóm ngành kinh tế công nghiệp 
+                và kỹ thuật công nghiệp, được thành lập từ ngày 24 tháng 12 năm 2004.</p>
+        </details>
+        <!--Bài 11:-->
+        <h3>Liên kết ngoài</h3>
+        <a href="https://www.flickr.com/">Flickr</a> <br>
+        <a href="https://www.facebook.com">Facebook</a> <br>
+        <a href="https://www.youtube.com">Youtube</a> <br>
+        <!--Bài 12:-->
+        Name: <br>
+        <input type="text" placeholder="Phạm Việt Nhật">
+        <input type="submit" value="submit" >
+        <!--Bài 13:-->
+        <form action="" method="post">
+            <p>
+                Name: <br>
+                <input type="text">
+            </p>
+            <p>
+                Telephone number: <br>
+                <input type="tel">
+            </p>
+            <p>
+                Email: <br>
+                <input type="email">
+            </p>
+            <p>
+                Favorite color: <br>
+                <input type="color">
+            </p>
+            <p>
+                Date of birth: <br>
+                <input type="date">
+            </p>
+            <p>
+                <input type="submit" value="Submit">
+            </p>
+        </form>
+        <!--Bài 14:-->
+        <form action="">
+            <h2>Contact us</h2>
+            <p>Use the following form to send a messages to example coffe</p>
+            <p >
+                <label for="a">Your email: </label>
+                <input type="text" id="a">
+            </p>
+            
+            <p>
+                <label for="b">Messages</label>
+                <textarea align="center" name="messages" id="b" cols="30" rows="10"></textarea>
+            </p>
+            <p>
+                <label for="c">How did you hear us? </label>
+                <select align="center" name="" id="c">
+                    <option value="">Facebook</option>
+                    <option value="">Youtube</option>
+                    <option value="">Twitter</option>
+                </select>
+            </p>
+            <p>
+                <label for="d">Newsletter</label>
+                <input type="checkbox" id="d">
+                Ensure this checkbox is checked if you would like to
+                receive email updates
+            </p>
+            <input type="submit" value="Send messages">
+        </form>
+        <!--Bài 16:-->
+        <form action="">
+            <h2>Travel reservation form</h2>
+            <h5>*denotes mandotory</h5>
+            Fullname*: <br>
+            <input type="text" placeholder="FirstName LastName"> <br>
+            Email address*: <br>
+            <input type="text" placeholder="EMAIL ADDRESS"> <br>
+            Select tour package*: <br>
+            <select name="tourPackage" id="a">
+                <option value="">Tour 1</option>
+                <option value="">Tour 2</option>
+                <option value="">Tour 3</option>
+            </select> <br>
+            Arrival date*: <br>
+            <input type="date" > <br>
+            Number of persons*: <br>    
+            <input type="number" placeholder="0"> <br>
+            what would you want to avail?* <br>
+            <input type="checkbox" id="1">
+            <label for="1">Broading</label> <br>
+            <input type="checkbox" id="2">
+            <label for="2">Fooding</label> <br>
+            <input type="checkbox" id="3">
+            <label for="3">Sight seeing</label> <br>
+            Discout coupo code: <br>
+            <input type="text"> <br>
+            Term and conditions* <br>
+            <input type="radio" id="4" name="Term" value="I agree" >
+            <label for="4"> I agree</label>
+            <input type="radio" id="5" name="Term" value="I disagree">
+            <label for="5"> I disagree</label> <br>
+            <input type="submit" value="Complete">
+        </form>
+        <!--Bài 18:-->
+        Please indicate your area of interest: <br>
+        <form action="">
+            <input type="text" list="tech">
+            <datalist id="tech">
+                <option value="CSS"></option>
+                <option value="HTML"></option>
+                <option value="JavaScript"></option>
+            </datalist>
+        </form>
+        <!--Bài 19-->
+        <p>Me at the zoo</p>
+        <video controls>
+            <source src="../BT_tuan_2/Me at the zoo.mp4" type="video/mp4">
+            <source src="../BT_tuan_2/Me at the zoo.mp4" type="video/ogg">
+        </video> <br>
+        Bài 20: <br>
+        <iframe width="420" height="345" src="https://www.youtube.com/embed/3nQNiWdeH2Q">
+        </iframe>
+    </body>
+</html>
